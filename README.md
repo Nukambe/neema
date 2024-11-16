@@ -1,9 +1,5 @@
 # Neema
 
-Here’s a README tailored for the Raspberry Pi client repository:
-
----
-
 # Raspberry Pi Ring Camera Client
 
 This repository contains the Raspberry Pi client software for a DIY Ring-style smart camera. The client captures video from the Raspberry Pi camera and streams it to a backend server for processing and distribution.
@@ -13,8 +9,6 @@ This repository contains the Raspberry Pi client software for a DIY Ring-style s
 - Captures live video from the Raspberry Pi Camera Module.
 - Streams video to a backend server using RTSP or HTTP.
 - Lightweight and efficient Python-based implementation.
-
----
 
 ## Prerequisites
 
@@ -32,8 +26,6 @@ This repository contains the Raspberry Pi client software for a DIY Ring-style s
   - `opencv-python` (for advanced video handling).
   - `requests` (for sending data to the backend).
   - `ffmpeg` (optional, for advanced video streaming).
-
----
 
 ## Installation
 
@@ -64,8 +56,6 @@ This repository contains the Raspberry Pi client software for a DIY Ring-style s
      }
      ```
 
----
-
 ## Usage
 
 1. **Connect the Raspberry Pi Camera**:
@@ -83,15 +73,11 @@ This repository contains the Raspberry Pi client software for a DIY Ring-style s
 3. **Verify the Stream**:
    - Check the backend server to confirm the video feed is being received.
 
----
-
 ## File Structure
 
 - `stream.py`: Main script for capturing and streaming video.
 - `.config.json`: Configuration file for client settings.
 - `requirements.txt`: List of Python dependencies.
-
----
 
 ## Configuration
 
@@ -100,23 +86,17 @@ The `.config.json` file allows customization of:
 - **Stream Resolution**: Define the video resolution (e.g., `[640, 480]`).
 - **Frame Rate**: Set the frames per second for the video stream.
 
----
-
 ## Troubleshooting
 
 -
 -
 -
 
----
-
 ## Roadmap
 
 - 
 - 
-- 
-
----
+-
 
 ## Contributing
 
